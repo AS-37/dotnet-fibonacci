@@ -1,2 +1,2 @@
 # dotnet-fibonacci
-Projet fibonacci decouverte .NET
+Projet fibonacci decouverte .NET 6
