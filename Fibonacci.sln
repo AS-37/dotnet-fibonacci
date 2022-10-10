@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo.Tests", "tests\Leo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leonardo.Web", "src\Leonardo.Web\Leonardo.Web.csproj", "{28D5392E-6562-4A10-901C-450ADF61AB42}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\WebApi\WebApi.csproj", "{84AC54A2-A4B2-411D-9219-49BE8C59EA70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +42,10 @@ Global
 		{28D5392E-6562-4A10-901C-450ADF61AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28D5392E-6562-4A10-901C-450ADF61AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28D5392E-6562-4A10-901C-450ADF61AB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84AC54A2-A4B2-411D-9219-49BE8C59EA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84AC54A2-A4B2-411D-9219-49BE8C59EA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84AC54A2-A4B2-411D-9219-49BE8C59EA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84AC54A2-A4B2-411D-9219-49BE8C59EA70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C9451600-C7AA-45AE-B27B-51D871C83B57} = {9929C592-A83C-4F81-B1A3-478F2AF0FFA0}

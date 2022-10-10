@@ -1,10 +1,12 @@
+using Leonardo;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 //app.MapGet("/", () => "Hello World!");
-
-app.MapGet("/Fibonacci", 
-		async () => Leonardo.Fibonacci.RunAsync(new []{"44", "43"}));
-
-app.Run();
-
+using (var dataContext = new FibonacciDataContext())
+{
+	app.MapGet("/Fibonacci",
+		async () => await new Fibonacci(dataContext).RunAsync(args));
+	app.Run();
+}
